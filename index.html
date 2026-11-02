@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Md Shakil Ahmmed | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">[Shakil]</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- STEP 1: Homepage / Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-content fade-in-up">
+        <h1>
+          Hey there, I'm <br /><span class="highlight">Md Shakil Ahmmed</span>
+        </h1>
+        <h2 class="tagline">a <span class="animated-word"></span></h2>
+        <p class="bio">
+          I am a 6th-semester Computer Science & Engineering student with a
+          strong passion for core programming, Artificial Intelligence, Machine
+          Learning, and Data Science. As an active researcher and problem
+          solver, I enjoy tackling complex technical challenges through code and
+          analytical modeling. My goal is to pursue higher studies abroad and
+          build a career as an innovative software and AI engineer.
+        </p>
+        <a href="#contact" class="btn-glow">Get in Touch</a>
+      </div>
+
+      <div class="hero-image fade-in">
+        <div class="glow-circle">
+          <img src="profile.jpg" alt="Md Shakil Ahmmed" />
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 2: Technical Skills Section -->
+    <section id="skills" class="skills-section">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3><i class="fas fa-code"></i> Programming Languages</h3>
+          <div class="skill-tags">
+            <span>Python</span>
+            <span>C</span>
+            <span>C++</span>
+            <span>PHP</span>
+            <span>JavaScript</span>
+            <span>HTML5 & CSS3</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3><i class="fas fa-database"></i> Data & Databases</h3>
+          <div class="skill-tags">
+            <span>Database (SQL)</span>
+            <span>MySQL</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3><i class="fas fa-microchip"></i> Fields & Tools</h3>
+          <div class="skill-tags">
+            <span>AI / ML</span>
+            <span>Data Science</span>
+            <span>Research</span>
+            <span>MATLAB & Simulink</span>
+            <span>Git & GitHub</span>
+            <span>VS Code</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 3: Projects Section -->
+    <section id="projects" class="projects-section">
+      <h2 class="section-title">Academic & Technical Projects</h2>
+      <div class="projects-grid">
+        <!-- Completed Project 1 -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="status-badge completed">Completed</span>
+          </div>
+          <h3>Student Hostel Management System</h3>
+          <p>
+            A console-based desktop application built to automate student record
+            management, room allocations, fee tracking, and administrative data
+            operations efficiently.
+          </p>
+          <div class="project-tags">
+            <span>C++</span>
+
+            <span>File Handling</span>
+          </div>
+          <div class="project-links">
+            <a
+              href="https://github.com/Shakil3000/Hostel-Management-System.git"
+              target="_blank"
+              class="btn-repo"
+            >
+              <i class="fab fa-github"></i> View Repository
+            </a>
+          </div>
+        </div>
+
+        <!-- Completed Project 2 -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="status-badge completed">Completed</span>
+          </div>
+          <h3>Text-To-Speech (TTS) Android App</h3>
+          <p>
+            A native mobile utility application converting written text into
+            natural spoken audio in real time, featuring speech rate
+            configuration and clean user interaction.
+          </p>
+          <div class="project-tags">
+            <span>Java</span>
+            <span>Android Studio</span>
+            <span>TTS Engine</span>
+          </div>
+          <div class="project-links">
+            <a
+              href="https://github.com/Shakil3000/TextToSpeech.git"
+              target="_blank"
+              class="btn-repo"
+            >
+              <i class="fab fa-github"></i> View Repository
+            </a>
+          </div>
+        </div>
+
+        <!-- Ongoing Project 1: Thesis -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="status-badge ongoing">Ongoing Research / Thesis</span>
+          </div>
+          <h3>LMS-Preprocessed Adaptive-Threshold Pan-Tompkins ECG Analysis</h3>
+          <p>
+            Undergraduate thesis simulating real-time QRS detection and
+            HRV-based rhythm analysis in MATLAB Simulink, leveraging adaptive
+            LMS filtering to suppress powerline noise.
+          </p>
+          <div class="project-tags">
+            <span>MATLAB</span>
+            <span>Simulink</span>
+            <span>DSP</span>
+            <span>Biomedical</span>
+          </div>
+          <div class="project-links">
+            <span class="btn-repo ongoing-tag">
+              <i class="fas fa-spinner fa-spin"></i> Research in Progress
+            </span>
+          </div>
+        </div>
+
+        <!-- Ongoing Project 2: E-Commerce -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="status-badge ongoing">Ongoing Project</span>
+          </div>
+          <h3>Organic Food E-Commerce Platform</h3>
+          <p>
+            A dynamic web marketplace for fresh organic produce, supporting user
+            authentication, product catalogs, shopping cart flow, and database
+            management.
+          </p>
+          <div class="project-tags">
+            <span>PHP</span>
+            <span>JavaScript</span>
+            <span>MySQL</span>
+            <span>HTML5 / CSS3</span>
+          </div>
+          <div class="project-links">
+            <span class="btn-repo ongoing-tag">
+              <i class="fas fa-code"></i> In Active Development
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 4: Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-subtitle">
+        Have a question, thesis collaboration idea, or project to discuss? Feel
+        free to reach out.
+      </p>
+
+      <div class="contact-container">
+        <div class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <h3>Email</h3>
+          <p>shakilnet3000@gmail.com</p>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=shakilnet3000@gmail.com"
+            target="_blank"
+            class="btn-contact"
+            >Send Message</a
+          >
+        </div>
+
+        <div class="contact-card">
+          <i class="fab fa-github"></i>
+          <h3>GitHub</h3>
+          <p>Explore code repositories</p>
+          <a
+            href="https://github.com/Shakil3000"
+            target="_blank"
+            class="btn-contact"
+            >Visit Profile</a
+          >
+        </div>
+
+        <div class="contact-card">
+          <i class="fab fa-linkedin"></i>
+          <h3>LinkedIn</h3>
+          <p>Connect professionally</p>
+          <a
+            href="https://www.linkedin.com/in/md-shakil-ahmmed-b889b1448/"
+            target="_blank"
+            class="btn-contact"
+            >Connect</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2026 Md Shakil Ahmmed. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
